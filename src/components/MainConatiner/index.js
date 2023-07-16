@@ -47,24 +47,7 @@ class MainConatiner extends Component {
     )
   }
 
-  //   onChangeValue = val => {
-  //     this.setState({optionValue: 0})
-  //     const value = parseInt(val, 10)
-  //     this.setState({optionValue: value})
-  //   }
-
-  //   onChangeValue = val => {
-  //     const parsedValue = parseInt(val, 10) // specify the base to prevent potential issues
-  //     if (!Number.isNaN(parsedValue)) {
-  //       this.setState({
-  //         optionValue: parsedValue,
-  //       })
-  //     } else {
-  //       // Handle invalid input
-  //       // For example, display an error message or set a default value
-  //     }
-  //   }
-
+ 
   render() {
     const {optionValue} = this.state
     let totalAmount
